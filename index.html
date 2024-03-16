@@ -1,58 +1,151 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> Adele</title>
 
-        <!-- la etiqueta del link vincula archivos externos -->
+<head>
+  <title>MADP</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Courgette&display=swap" rel="stylesheet">
+</head>
 
-        <link rel="stylesheet" href="css/style.css">
-
-    </head>
-
-    <body>
-            <header>
-
-              <section>
-                    <h1 class="cualquier">Adele</h1>
-                    <img src="assets/imagenes/descarga.jpg" width="250"  height="200"
-
-
-
-                      
-                    <h2> cantante</h2>
-            </header>
-
-                <p>
-                    Adele Laurie Blue Adkins, known simply as Adele,
-                    is a British singer-songwriter and multi-instrumentalist. 
-                    She is one of the best-selling music artists in the world, 
-                    with more than 120 million sales of albums and singles
-                </p>
-
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-
-                </ul>
-            </section>
-
-
-      
-    <!--seccion 2  -->
-     <section>
-    <!-- creacion de lista -->
-       <h4>Albums</h4>
-      <ul>
-              
-          <li>21 the album explores themes of heartbreak, healing, introspection, and forgiveness. Adele began writing 21 in April 2009, while still involved in the relationship that subsequently inspired the record.</li>
-          <li>30  they reflect the age that she wrote them. She wrote her debut album 19 at 19, followed by 21, then 25, and now, 30 Adele recently turned 33 but she started writing the album at 30.</li>
-          <li>19  the reason for naming her debut album '19' was to reflect her age while she was writing it: "I just kinda remember becoming a bit of a woman during that time.</li>
-          <li>25 My last record was a break-up record, and if I had to label this one, I would call it a make-up record. Making up for lost time. Making up for everything I ever did and never did. 25 is about getting to know who I've become without realising.</li>
+<body>
+  <div id="barra">
+    <div class="Titulo">
+      <h5>MÁS ALLÁ DEL PRESUPUESTO</h5>
+    </div>
+    <div class="BarraIzquierda">
+      <ul class="enlaces">
+        <li class="link"><a href="#Nosotros">Nosotros</a></li>
+        <li class="link"><a href="#Estadistica">Estadistica</a></li>
+        <li class="link"><a href="#Propuesta">Propuesta</a></li>
       </ul>
+    </div>
+  </div>
+  <div class="Primera_imagen">
+    <img src="imagenes/fondo.jpg" width="1200" height="450" <span></span>
+    <div class="eslogan">
+      <h1>MADP</h1>
+      <h3>¡Que tus malos habitos no te pasen factura a fin de mes!</h3>
+    </div>
+  </div>
 
-              </section>
+  <section id="Nosotros">
+    <div id="Resumen">
+      <div id="SubTitulo">
+        <h2>INTRODUCCION</h2>
+      </div>
+      <div id="texto">
+        <p>La falta de atención a las finanzas personales conduce a una administración negativa de ingresos, generando
+          la necesidad constante de préstamos, trabajando solo para subsistir y sin capacidad de ahorrar. Esta situación
+          afecta no solo a nivel individual, sino también a la estabilidad financiera a nivel nacional y mundial. El
+          objetivo es ofrecer una solución mediante una app móvil que aborde hábitos perjudiciales comunes. La
+          aplicación proporcionará herramientas para un control financiero ordenado, incluyendo presupuestos, registro
+          de ingresos/egresos, pagos automáticos, consejos financieros y personalización de perfiles. El propósito final
+          es mejorar la situación financiera de las personas y crear conciencia sobre la importancia de mejorar los
+          hábitos financieros.</p>
+      </div>
+    </div>
+
+    <div id="Problema">
+      <div id="SegundoTitulo">
+        <p>¿Cómo instruir a las personas al adecuado manejo del presupuesto a través de una aplicación
+          móvil/multiplataforma que cumpla con las necesidades de cada usuario y mejore su calidad de vida mediante
+          herramientas financieras?</p>
+      </div>
+      <div id="Pregunta">
+        <h2>PROBLEMA</h2>
+      </div>
+    </div>
+
+    <div id="Justificacion">
+      <div id="TercerTitulo">
+        <h2>JUSTIFICACION</h2>
+
+      </div>
+      <div id="Tex">
+        <p>La gestión de finanzas personales es esencial, ya que afecta nuestra vida laboral y personal. Un aplicativo
+          móvil intuitivo y sencillo para administrar finanzas y recibir consejos financieros sería de gran importancia
+          y utilidad en nuestra sociedad.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="Obje"> <!--Section Dos-->
+    <div class="Objetivos">
+      <div class="TituloB">
+        <h2>OBJETIVOS</h2>
+      </div>
+
+      <div class="Definidos">
+        <ul>
+          <li>1) Implementar herramientas para la gestión de finanzas mediante una app móvil, lo cual controlará gastos
+            personales, familiares y sociales.</li>
+          <li>2) Diseñar un modelo estadístico que me permita recolectar los datos para identificar los usos financieros
+            y las falencias.</li>
+          <li>3) Definir un gestor de base de datos para nuestro proyecto.</li>
+          <li>4) Definir el lenguaje de programación más óptimo que vamos a utilizar.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
 
-    </body>
+  <section id="Estadistica"> <!--Tres  -->
+    <div class="Encuesta">
+      <div class="Grafica">
+        <h2>ESTADISTICAS</h2> <!-- Título -->
+        <img src="imagenes/Preguntas.jpg" width="200" height="450" alt="Imagen de la encuesta"> <!-- Imagen -->
+        <img src="imagenes/barras.jpg.png" width="1200" height="450" alt="Segunda imagen de la encuesta">
+        <h2>¿Qué motivó impide aplicar frecuentemente un debido hábito para el manejo del presupuesto personal y/o
+          familiar?</h2>
+        <img src="imagenes/encuestaci.jpg.png" width="1200" height="450" alt="Tercera imagen de la encuesta">
+      </div>
+    </div>
+  </section>
+
+  <section id="Propuesta">
+    <div class="servicio">
+      <div class="Explicacion">
+        <h2>MADP</h2>
+        <p>MADP le ofrece al usuario una cuenta totalmente personalizada ya sea enlazando con tu correo electrónico, o
+          creando una cuenta personal, con la cual vas a poder acceder a todos los servicios. En MADP comenzarás a
+          registrar tus primeros movimientos, comparando ingresos y egresos presupuestando a futuro. Mejorar tus hábitos
+          será muy fácil gracias a nuestros tips didácticos disponibles y recomendados. Los objetivos que hayas
+          planteado en la aplicación, te permitirá manejar una serie de recordatorios y enlazar movimientos Bancarios o
+          de billeteras, recolectados por medio de mensajes de texto que notifican las transacciones.</p>
+      </div>
+      <div class="maquetados">
+        <img src="ImagenesMaquetado/MaquetadoUno.jpg.png" width="300" height="500" alt="Imagen de maquetado">
+        <img src="ImagenesMaquetado/MaquetadoDos.jpg.png" width="300" height="500" alt="Imagen de maquetado">
+        <img src="ImagenesMaquetado/MaquetadoTres.jpg.png" width="300" height="500" alt="Imagen de maquetado">
+        <img src="ImagenesMaquetado/MaquetadoCuatro.jpg.png" width="300" height="500" alt="Imagen de maquetado">
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="bloque">
+      <h3>INTEGRANTES PROYECTO</h3>
+      <ul>
+        <li>Dayana Escobar</li>
+        <li>Brayan Lopez</li>
+        <li>Alejandro Jauregui</li>
+        <li>Andres Ballen</li>
+      </ul>
+    </div>
+    <div class="bloque">
+      <h3>CONTACTANOS</h3>
+      <ul>
+        <li>TEL: 68041223</li>
+        <li>CORREO: masalladelpresupuesto@gmail.com</li>
+      </ul>
+    </div>
+    <div class="bloque">
+      <h3>GITHUB</h3>
+      <p><a href="https://github.com/tu-usuario/tu-repositorio">Enlace a nuestro repositorio en GitHub</a></p>
+    </div>
+  </footer>
+</body>
 
 </html>
