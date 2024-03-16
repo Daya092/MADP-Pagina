@@ -19,7 +19,6 @@ body {
 .Titulo {
   font-family: "Courgette", cursive;
   color: #b3b1cd;
-  /* Establecer el color del texto explícitamente */
   margin-bottom: 1rem;
   background-color: none;
   margin-left: 2%;
@@ -37,15 +36,10 @@ body {
   font-size: 200%;
   position: absolute;
   top: 50%;
-  /* Ajusta la posición verticalmente según sea necesario */
   left: 50%;
-  /* Ajusta la posición horizontalmente según sea necesario */
   transform: translate(-40%, -60%);
-  /* Centra el texto en el medio */
   background-color: none;
-  /* Color de fondo del texto */
   padding: 20px;
-  /* Espacio alrededor del texto */
   height: 20vh;
   color: white;
 }
@@ -60,7 +54,6 @@ body {
 .BarraIzquierda {
   font-family: "Courgette", cursive;
   color: #b3b1cd;
-  /* Establecer el color del texto explícitamente */
   margin-bottom: 1rem;
   background-color: none;
   margin-left: 45%;
@@ -73,12 +66,8 @@ body {
   height: 200px;
   background-color: #221111;
   display: flex;
-  /* Usar flexbox */
   justify-content: space-between;
-  /* Distribuir el espacio entre los elementos */
   align-items: center;
-  /* Centrar verticalmente */
-
 
 }
 
@@ -87,11 +76,8 @@ body {
   height: 200px;
   background-color: white;
   display: flex;
-  /* Utilizar flexbox */
   justify-content: center;
-  /* Centrar horizontalmente */
   align-items: center;
-  /* Centrar verticalmente */
 }
 
 
@@ -115,12 +101,8 @@ body {
   height: 200px;
   background-color: #332e2e;
   display: flex;
-  /* Usar flexbox */
   justify-content: space-between;
-  /* Distribuir el espacio entre los elementos */
   align-items: center;
-  /* Centrar verticalmente */
-
 
 }
 
@@ -143,11 +125,8 @@ body {
   height: 200px;
   background-color: white;
   display: flex;
-  /* Utilizar flexbox */
   justify-content: center;
-  /* Centrar horizontalmente */
   align-items: center;
-  /* Centrar verticalmente */
 }
 
 
@@ -157,11 +136,8 @@ body {
   height: 200px;
   background-color: #1a0e0e;
   display: flex;
-  /* Usar flexbox */
   justify-content: space-between;
-  /* Distribuir el espacio entre los elementos */
   align-items: center;
-  /* Centrar verticalmente */
   margin-bottom: 1rem;
 
 }
@@ -171,11 +147,8 @@ body {
   height: 200px;
   background-color: white;
   display: flex;
-  /* Utilizar flexbox */
   justify-content: center;
-  /* Centrar horizontalmente */
   align-items: center;
-  /* Centrar verticalmente */
 }
 
 
@@ -197,35 +170,26 @@ body {
   margin: auto;
   width: 1334px;
   min-height: 500px;
-  /* Ajusta la altura según sea necesario */
   background-color: #171716;
   display: flex;
   flex-direction: column;
-  /* Alinear elementos verticalmente */
   justify-content: flex-start;
-  /* Alinear al principio del contenedor */
   align-items: stretch;
-  /* Alinear los elementos a lo largo del contenedor */
   margin-bottom: 1rem;
 }
 
 
 .TituloB {
   margin: 0;
-  /* Eliminar todos los márgenes */
   margin-right: 2%;
   margin-left: 2%;
   width: 1280px;
   height: 100px;
   background-color: white;
   align-self: flex-start;
-  /* Alinear al principio del contenedor */
   display: flex;
-  /* Usar flexbox */
   justify-content: center;
-  /* Centrar horizontalmente */
   align-items: center;
-  /* Centrar verticalmente */
 }
 
 .Definidos {
@@ -235,9 +199,7 @@ body {
   height: 300px;
   background-color: #1a0e0e;
   display: flex;
-  /* Usar flexbox */
   justify-content: space-between;
-  /* Distribuir el espacio entre los elementos */
   align-self: flex-end;
   font-size: 120%
 }
@@ -254,9 +216,7 @@ body {
   background-color: #1a0e0e;
   display: flex;
   flex-direction: column;
-  /* Alinear elementos verticalmente */
   justify-content: flex-start;
-  /* Alinear al principio */
   align-items: center;
   margin: 2%;
   width: 200%;
@@ -264,16 +224,12 @@ body {
 
 .Grafica h2 {
   width: 100%;
-  /* Ocupa todo el ancho del contenedor */
   text-align: center;
-  /* Centrar horizontalmente */
 }
 
 .Grafica img {
   width: 70%;
-  /* Ocupa todo el ancho del contenedor */
   height: 50%;
-  /* Mantiene la proporción de aspecto */
   margin-bottom: 1rem;
 }
 
@@ -281,9 +237,7 @@ body {
   background-color: #0f0f0f;
   display: flex;
   flex-direction: column;
-  /* Alinear elementos verticalmente */
   align-items: center;
-  /* Centrar horizontalmente */
   margin-bottom: 1rem;
 }
 
@@ -292,13 +246,10 @@ body {
   background-color: #1a0e0e;
   display: flex;
   flex-direction: column;
-  /* Alinear elementos verticalmente */
   justify-content: flex-start;
-  /* Alinear al principio */
   align-items: center;
   margin: 2%;
   width: 95%;
-  /* Ajusta según sea necesario */
   font-size: 120%;
 }
 
@@ -307,43 +258,32 @@ body {
   margin-top: 1.2rem;
   display: flex;
   width: 95%;
-  /* Ocupa todo el ancho del contenedor */
   height: 50%;
   margin-left: 3%;
   margin-right: 3%;
   justify-content: space-between;
-  /* Distribuye el espacio entre los elementos */
 }
 
 .maquetados img {
   margin-right: 1%;
-  /* Espacio entre las imágenes */
 }
 
 .footer {
   background-color: #1a0e0e;
-  /* Color de fondo del footer */
   color: #dcdde5;
-  /* Color del texto */
   padding: 20px;
-  /* Espacio interno */
   display: flex;
-  /* Usa flexbox para distribuir los bloques */
   justify-content: space-around;
-  /* Distribuye los bloques uniformemente */
 }
 
 .bloque {
   flex: 1;
-  /* Cada bloque ocupa el mismo espacio */
   text-align: center;
-  /* Alinea el texto al centro */
   color:white
 }
 
 .bloque h3 {
   margin-top: 0;
-  /* Elimina el margen superior del título */
 }
 
 .logo {
